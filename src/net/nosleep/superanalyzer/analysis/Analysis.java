@@ -415,7 +415,7 @@ public class Analysis
 		Vector<StringInt> items = new Vector<StringInt>();
 
 		// adds the highest rated item to the vector on each iteration
-		for (int i = 0; i < 20; i++)
+		for (int i = 0; i < 25; i++)
 			topSearch(items, false, hash);
 
 		return items;
